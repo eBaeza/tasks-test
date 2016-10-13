@@ -1,7 +1,7 @@
 #### Instalar dependencias con composer
 - `$ cd tasks-test`
 - `$ composer install`
--
+
 #### Crear achivo de configuración y generar clave de la aplicación
 - `$ cp .env.example .env`
 - `$ php artisan  key:generate`
