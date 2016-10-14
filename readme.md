@@ -1,7 +1,7 @@
 ## Setup
 
 ##### Requerimientos e instalación
-- [Requerimientos](C:\Users\Edgar\eb-proys\tasks-test\readme.md) de Laravel 5.3
+- [Requerimientos](https://laravel.com/docs/5.3#installation) de Laravel 5.3
 - [Composer](https://getcomposer.org/)
 - Clonar este repositorio
 - `$ cd tasks-test`
@@ -35,8 +35,8 @@ Metadatos de las tareas:
 - Tipo de recurso
 - Nombre
 - Descripción
-- Equipo al que se asinga
-- Fecha de entrga
+- Equipo al que se asigna
+- Fecha de entrega
 - Estatus (O - Open, P - In Progress, D - Done, E - Expired)
 - Fecha de creación
 - Fecha de modificación
