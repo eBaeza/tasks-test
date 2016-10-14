@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+use App\Task;
+
 class TaskController extends Controller
 {
     /**
@@ -15,7 +17,7 @@ class TaskController extends Controller
      */
     public function index()
     {
-        //
+        return \App\Task::orderBy('name')->paginate();
     }
 
     /**
@@ -36,7 +38,7 @@ class TaskController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Task::create($request->all());
     }
 
     /**
@@ -47,7 +49,7 @@ class TaskController extends Controller
      */
     public function show($id)
     {
-        //
+        return \App\Task::findOrFail($id);
     }
 
     /**
