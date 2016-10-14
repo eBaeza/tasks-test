@@ -22,10 +22,12 @@
 
 En el sistema de gestión de tareas se necesitan crear tareas para un tipo de recurso y asignarla a un equipo de trabajo.
 
+- Haz un fork del repositorio y crea un rama con tu primer nombre y apellido.
 - Desarrolla un endpoint que permita crear una nueva tarea dedicada para un tipo de recurso y asignarle un equipo de trabajo.
 - Desarrolla el endpoint para listar las tarea creadas.
+- Realiza un pull request cuando termines.
 
-Notas: Para llevar un registro de los modelos creados utiliza [migraciones](https://laravel.com/docs/5.3/migrations) para el control de versión de la DB. Para un desarrollo más rápido toma en cuenta los [controladores RESTful](https://laravel.com/docs/5.3/controllers#resource-controllers)
+Notas: Para llevar un registro de los modelos creados utiliza [migraciones](https://laravel.com/docs/5.3/migrations) para el control de versión de la DB. Para un desarrollo más rápido toma en cuenta los [controladores RESTful](https://laravel.com/docs/5.3/controllers#resource-controllers).
 
 Metadatos de las tareas:
 
