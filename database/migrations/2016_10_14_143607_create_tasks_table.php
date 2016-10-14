@@ -15,6 +15,12 @@ class CreateTasksTable extends Migration
     {
         Schema::create('tasks', function (Blueprint $table) {
             $table->increments('id');
+            $table->foreign('resource_type_id')->references('id')->on('resource_types');
+            $table->foreign('team_id')->references('id')->on('teams');
+            $table->string('name');
+            $table->text('description');
+            $table->date('due_date');
+            $table->enum('status', ['open', 'progress', 'done', 'expired']);
             $table->timestamps();
         });
     }
