@@ -15,3 +15,7 @@
 Route::resource('/resourcetype', 'ResourceTypeController');
 
 Route::resource('/team', 'TeamController');
+
+Route::get('/tasks/taskslist','TaskController@index');
+
+Route::resource('/tasks', 'TaskController');
